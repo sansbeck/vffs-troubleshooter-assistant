@@ -1,2 +1,14 @@
 # vffs-troubleshooter-assistant
-Simple guide for VFFS troubleshooting
+Simple guide to refer for VFFS troubleshooting
+(
+PIS,
+Microleakage,
+Jaw Cut,
+Body cut,
+Horizontal wrinkle,
+Printer Actuator,
+Former Laminate Jamming,
+Perforation,
+Regmark,
+Back Seal Wrinkle
+)
