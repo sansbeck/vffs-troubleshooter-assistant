@@ -1,0 +1,87 @@
+
+    {
+        "PIS/Chip in Seal": {
+          "guide": [
+            "Check dump delay: (800±20)",
+            "Check timer hopper deposition",
+            "Check the timing hopper gap; it should be <1mm",
+            "Flavor cleaning done?",
+            "Check for excessive product on DF, tune DF AMP, TIME & Weight.",
+            "Check strip length value: 35mm",
+            "Check operation of PH, WH, BH, and TH: ratio (2:1) for Amplitude:Time",
+            "Check Weigher display if there is shown OS (Over Scale) or OW (Over Weight): manual control into the green region",
+            "Check Pocker timing, Delay and Ontime (450-150 to 400-100)",
+            "Check target weight in DF: 15X the SKU grammage & IF: 20X the SKU grammage.",
+            "Check stripper plate gap: 0.5mm",
+            "Take off conveyor mode: Intermediate",
+            "Check mc speed settings as per SKU (5₹ =90, 10₹=80, 20₹=50, 30₹=40, 50₹=40)",
+            "Check knife and clean.",
+            "Former tail adjustment: inverted V",
+            "Check crumb plate gap in crumb plate: <1mm",
+            "Check weigher setting to avoid overweight dumps.",
+            "Check the knife position: 2mm inside of jaw (no sharp edge)",
+            "Check the Nitrogen flow setting as per SKU standard mentioned at N² panel",
+            "Check for dimension/size and lot of chips (chips size should be < 65mm): CHIPSONA may lead to FORMER JAMMING, 6 spp at trim & pare",
+            "Weighers speed: 100% if bagger speed is 90BPM"
+          ]
+        },
+        
+          
+        "Printer Actuator error": {
+          "guide": [
+            "Restart the Printer.",
+            "Check for Obstructions:\nCarefully examine the area around the printhead.\nEnsure nothing like labels or debris is blocking movement.",
+            "Inspect the Printhead Clearance:\nEnsure correct distance between printhead and platen/rollers.\nFor Videojet TTO6230, 1.5–2.5 mm (ideal: 2 mm).",
+            "Check for Loose Components:\nLook for any missing cylinder stoppers or loose screws on the printhead bracket.",
+            "Examine the Actuator Spring:\nVerify that the spring is correctly oriented and functioning.",
+            "Clean the Actuator Sensor:\nRemove dust or ink buildup from the sensor area carefully.",
+            "Check Electrical Connections:\nEnsure all cables for the printhead and actuator are securely connected.",
+            "Consider Recent Maintenance:\nReview any past abnormality history, part changes, or manual interventions."
+          ]
+        },
+        "Former-Laminate Jamming": {
+          "guide": [
+            "Former & Pull Belt Gap (without laminate: 0.3 mm):\nEnsure this gap is not too tight, as it could restrict laminate movement.",
+            "Former to Back Seal Gap (2 mm):\nA misaligned or improper gap can cause laminate misfeed or folding, leading to jams.",
+            "Former Tail Condition:\nInspect the condition and cleanliness of the former tail.",
+            "Teflon Tape Inspection & Replacement (SKU C/O):\nEnsure Teflon tape is not worn or peeling during SKU changeover.",
+            "Vacuum Pressure (0.1 to 0.2 MPA):\nLow vacuum may not hold laminate properly, causing misalignment.\nCheck for leaks or clogged vacuum ports.",
+            "Laminate Insertion through Collar:\nEnsure laminate is properly centred and tensioned.\nMisfed laminate can fold or crease, causing jamming.",
+            "Laminate Quality and Wrinkle:\nCheck storage conditions or switch to a fresh roll if needed.",
+            "Former Stopper:\nEnsure the former stopper is fixed in place for proper back seal and pull belt operation.",
+            "Laminate Alignment:\nEnsure laminate is aligned correctly in the back seal moving area to avoid skew or fold."
+          ]
+        },
+        "Perforation": {
+        "guide": [
+            "Check Knife ON & Delay Time Settings:\nEnsure correct settings — ON time: 150ms, Delay: 450ms.",
+            "Verify Knife Positioning:\nEnsure the knife is correctly aligned with the sealing jaws.",
+            "Inspect Knife Cleanliness:\nCheck for product buildup and clean the knife blade thoroughly.",
+            "Jaw Slot Cleaning:\nEnsure the knife movement path and jaw slot are clean to allow free motion.",
+            "Pneumatic System Check:\nInspect for proper functioning of pneumatic components.",
+            "Air System Integrity:\nCheck for air leakage, valve condition, tube fittings, and cylinder wear.",
+            "Knife Replacement:\nChange the knife every 3 months as preventive maintenance.",
+            "Cleaning Frequency:\nEnsure knife cleaning is done every shift to avoid cuts or perforation issues."
+        ],
+        "facts": [
+            "Unclean knife edges can lead to poor seals and crumpled packs.",
+            "Leakage in pneumatic tubes may affect knife punch timing."
+        ]
+        },
+        "Registration Mark": {
+        "guide": [
+            "Check Laminate at Eye Mark Area:\nInspect for any wrinkles, smudges, or damage that may obstruct sensor detection.",
+            "Inspect Eye Mark Sensor:\nEnsure correct mounting and positioning of the sensor over the eye mark line.",
+            "Teach the Eye Mark Sensor:\nAlign the sensor over the black eye mark and press the round knob for 2 seconds.\nWait for the indicator to blink ~5 times.",
+            "Calibrate Against White Area:\nMove laminate to the white (non-eye mark) area and press the round knob once.\nTeaching is now complete.",
+            "Validate Eye Mark Response:\nMove laminate up and down — the sensor should register count from 99 to 0 as eye marks pass through."
+        ],
+        "facts": [
+            "Wrinkled laminate or dirty sensors are common causes of registration errors.",
+            "Proper teaching ensures accurate eye mark detection and alignment."
+        ]
+        }
+      }
+      
+  
+  

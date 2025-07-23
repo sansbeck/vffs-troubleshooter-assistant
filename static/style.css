@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background: #f0f2f5;
+  padding: 30px;
+}
+
+.container {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+select, input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.card {
+  padding: 20px;
+  background: #e9f0ff;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.hidden { display: none; }
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}

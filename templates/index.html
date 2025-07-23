@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VFFS Troubleshooter</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 VFFS Troubleshooting Assistant</h1>
+
+    <select id="issue-select">
+      <option disabled selected>-- Select an issue --</option>
+      {% for problem in problems %}
+        <option value="{{ problem }}">{{ problem }}</option>
+      {% endfor %}
+    </select>
+
+    <div id="solution" class="card hidden">
+      <h2>Step-by-Step Guide</h2>
+      <ul id="guide-text"></ul>
+      <h3>Tips & Warnings</h3>
+      <ul id="fact-list"></ul>
+    </div>
+
+    <div id="ask-box" class="card hidden">
+      <h3>Ask Further</h3>
+      <input id="query-input" placeholder="Ask a custom question about the issue..." />
+      <button id="ask-btn">Ask Expert AI</button>
+      <div id="ai-response"></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
